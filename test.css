@@ -1,0 +1,72 @@
+
+
+/* Reset básico para asegurarse de que todos los navegadores muestren el contenido de manera consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+/* Estilos del contenedor principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para los encabezados */
+h1, h2 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+    color: #c85a54; /* Color terracota cálido */
+}
+
+/* Estilo para h2 */
+h2 {
+    color: #c85a54; /* Color salmón cálido */
+}
+
+/* Estilo para párrafos */
+p {
+    font-size: 18px;
+    color: #f5d2c7; /* Color marrón claro */
+    margin-bottom: 20px;
+}
+
+/* Estilos para centrar el contenido */
+.text-center {
+    text-align: center;
+}
+
+/* Estilos para la galería de imágenes */
+figure {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+figcaption {
+    font-size: 16px;
+    color: #ffffff; /* Color marrón medio */
+    margin-top: 10px;
+}

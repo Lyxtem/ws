@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7583454600863558"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Menú.html">Inicio</a></li>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="products.html">Productos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Productos</h1>
+        <section class="product-grid">
+            <div class="product-item" data-product="1">
+                <img src="imagen1.jpg" alt="Producto 1">
+                <h3>Ensalada Caprese</h3>
+            </div>
+            <div class="product-item" data-product="2">
+                <img src="imagen2.jpg" alt="Producto 2">
+                <h3>Pasta Carbonara</h3>
+            </div>
+            <div class="product-item" data-product="3">
+                <img src="imagen3.jpg" alt="Producto 3">
+                <h3>Pollo a la Parrilla</h3>
+            </div>
+            <div class="product-item" data-product="4">
+                <img src="imagen4.jpg" alt="Producto 4">
+                <h3>Pescado a la Plancha</h3>
+            </div>
+            <div class="product-item" data-product="5">
+                <img src="imagen5.jpg" alt="Producto 5">
+                <h3>Tarta de Chocolate</h3>
+            </div>
+        </section>
+
+        <!-- Modal -->
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <a id="modalLinkButton" href="" target="_blank" class="modal-button">Ver más</a> <!-- Botón para redirigir -->
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
